@@ -1,0 +1,965 @@
+@font-face {
+  font-family: Mark-Pro;
+  src: url("../fonst/Mark Pro.ttf");
+}
+
+@font-face {
+  font-family: Mark-Pro-Bold;
+  src: url("../fonst/Mark Pro Bold.ttf");
+}
+
+@font-face {
+  font-family: Mark-Pro-Heavy;
+  src: url("../fonst/Mark Pro Heavy.ttf");
+}
+
+@font-face {
+  font-family: Mark-Pro-Medium;
+  src: url("../fonst/Mark Pro Medium.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("../fonst/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../fonst/Poppins-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+          mask-size: 100%;
+  -webkit-mask-position: center;
+          mask-position: center;
+  vertical-align: middle;
+}
+
+.icon.icon-cachet {
+  -webkit-mask-image: url("../../icons/stamp.png");
+          mask-image: url("../../icons/stamp.png");
+}
+
+.icon.icon-bracket {
+  -webkit-mask-image: url("../../icons/line.svg");
+          mask-image: url("../../icons/line.svg");
+}
+
+.icon.icon-instagram {
+  -webkit-mask-image: url("../../icons/instagram.svg");
+          mask-image: url("../../icons/instagram.svg");
+}
+
+.icon.icon-facebook {
+  -webkit-mask-image: url("../../icons/facebook.svg");
+          mask-image: url("../../icons/facebook.svg");
+}
+
+.icon.icon-telegram {
+  -webkit-mask-image: url("../../icons/telegram.svg");
+          mask-image: url("../../icons/telegram.svg");
+}
+
+.icon.icon-restangle {
+  -webkit-mask-image: url("../../icons/RectangleFly.svg");
+          mask-image: url("../../icons/RectangleFly.svg");
+}
+
+.icon.icon-arrow {
+  -webkit-mask-image: url("../../icons/RectangleLine.svg");
+          mask-image: url("../../icons/RectangleLine.svg");
+}
+
+.icon.icon-play {
+  -webkit-mask-image: url("../icons/play.svg");
+          mask-image: url("../icons/play.svg");
+}
+
+.icon.icon-course {
+  -webkit-mask-image: url("../icons/course.svg");
+          mask-image: url("../icons/course.svg");
+  width: 20px;
+  height: 20px;
+}
+
+.icon.icon-mentors {
+  -webkit-mask-image: url("../icons/mentors.svg");
+          mask-image: url("../icons/mentors.svg");
+  width: 25px;
+  height: 20px;
+}
+
+.icon.icon-students {
+  -webkit-mask-image: url("../icons/students.svg");
+          mask-image: url("../icons/students.svg");
+  width: 17.5px;
+  height: 20px;
+}
+
+.btn:focus {
+  display: none;
+}
+
+body header .navbar {
+  padding: 0;
+}
+
+body header .navbar .container {
+  padding: 60px 0 0 0;
+}
+
+body header .navbar .container .navbar-brand {
+  padding: 0;
+}
+
+body header .navbar .container .navbar-brand img {
+  width: 170px;
+  height: 43px;
+}
+
+body header .navbar .container .collapse .nav-item .active {
+  color: #ffcf23 !important;
+}
+
+body header .navbar .container .collapse .nav-item .nav-link {
+  font-family: Mark-Pro, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 20px;
+  color: #000000;
+  padding: 0 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body header .navbar .container .collapse .nav-item .nav-link span {
+  background: #000000;
+  width: 1rem;
+  height: 1rem;
+}
+
+body header .navbar .container .collapse .nav-item .nav-link:hover {
+  color: #ffcf23;
+}
+
+body header .navbar .container .collapse .nav-item .dropdown-toggle::after {
+  -webkit-mask-image: url("../../icons/Rectangle.svg");
+          mask-image: url("../../icons/Rectangle.svg");
+  background: #ffffff;
+  opacity: 1;
+  width: 6px;
+  height: 6px;
+}
+
+body header .navbar .container .collapse .nav-item .dropdown-menu {
+  left: -55px;
+}
+
+body header .navbar .container .collapse .nav-item .dropdown-menu .dropdown-item img {
+  width: 170px;
+  height: 2rem;
+}
+
+body section .footer {
+  background-color: #ffcf23;
+  padding: 50px 0 38px 0;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_title img {
+  width: 124px;
+  height: 44.47px;
+  margin-bottom: 15.53px;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_title a {
+  font-family: Mark-Pro, sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #131637;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_link a {
+  font-family: Mark-Pro, sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #131637;
+  margin-bottom: 1rem;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_icon .d-flex {
+  margin-bottom: 13px;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_icon .d-flex span {
+  background: #000000;
+  width: 20px;
+  height: 20px;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_icon .d-flex a {
+  text-decoration: none;
+  font-family: Mark-Pro, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.025em;
+  color: #131637;
+  margin-left: 15px;
+}
+
+body section .footer .container .row .col-xl-5 .footer_location img {
+  width: 91.34px;
+  height: 87.56px;
+}
+
+body section .footer .container .row .col-xl-5 .footer_location a {
+  font-family: Poppins-Regular, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #131637;
+  width: 192px;
+  margin-left: 48.57px;
+}
+
+@font-face {
+  font-family: Hackney;
+  src: url("../fonst/Hackney Personal Use Only 700.ttf");
+}
+
+.icon.icon-help {
+  -webkit-mask-image: url("../icons/help.svg");
+          mask-image: url("../icons/help.svg");
+}
+
+body header .course-content .container .row .col-xl-12 .d-flex {
+  margin: 60px 0;
+  background: #f7f7f5;
+  padding: 70px;
+  border-radius: 10px;
+}
+
+body header .course-content .container .row .col-xl-12 .d-flex .course_title h1 {
+  font-family: Mark-Pro-Heavy, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 42px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  width: 343px;
+  margin-bottom: 20px;
+}
+
+body header .course-content .container .row .col-xl-12 .d-flex .course_title p {
+  font-family: Mark-Pro, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+  font-size: 16px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  width: 383px;
+  margin-bottom: 61px;
+}
+
+body header .course-content .container .row .col-xl-12 .d-flex .course_title .main-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffcf23;
+  border-radius: 8px;
+  width: 250px;
+  height: 55px;
+  padding: 25px 35px;
+  margin-top: 1.35rem;
+}
+
+body header .course-content .container .row .col-xl-12 .d-flex .course_title .main-button .btn_purple {
+  font-family: Mark-Pro-Medium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 5px;
+  color: #000000;
+}
+
+body header .course-content .container .row .col-xl-12 .d-flex .course_title .main-button .btn_purple span {
+  width: 16.25px;
+  height: 16.25px;
+  background-color: #000000;
+  margin-left: 10px;
+}
+
+body header .course-content .container .row .col-xl-12 .d-flex .course_img img {
+  width: 600px;
+  height: 410px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+body header .course-content .container .row .col-xl-12 .course_box {
+  background: #000000;
+  color: #ffffff;
+}
+
+body header .course-content .container .row .col-xl-12 .course_box p {
+  font-family: Mark-Pro-Bold, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 5px;
+  letter-spacing: 0.025em;
+  margin: 20px 0 24px 0;
+}
+
+body header .course-content .container .row .col-xl-12 .course_box h5 {
+  font-family: Mark-Pro-Medium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 5px;
+  letter-spacing: 0.025em;
+}
+
+body header .course-content .container .row .col-xl-12 .course_box h5 span {
+  font-family: Mark-Pro-Bold, sans-serif;
+  font-size: 30px;
+  color: #ffcf23;
+}
+
+body header .course-content .container .row .col-xl-12 .course_box h5 i {
+  font-style: normal;
+  color: #ffcf23;
+}
+
+body main .toWhom .container .row .col-xl-12 .toWhom_title h2 {
+  font-family: Mark-Pro-Bold, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: 70px;
+  width: 445px;
+}
+
+body main .toWhom .container .row .col-xl-12 .all-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .toWhom .container .row .col-xl-12 .all-cards .title_card {
+  width: 45%;
+}
+
+body main .toWhom .container .row .col-xl-12 .all-cards .title_card .d-flex h1 {
+  font-family: Hackney, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #ffcf23;
+  margin-right: 50px;
+  margin-top: 45px;
+}
+
+body main .toWhom .container .row .col-xl-12 .all-cards .title_card .d-flex .min_box h5 {
+  font-family: Mark-Pro-Bold, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+body main .toWhom .container .row .col-xl-12 .all-cards .title_card .d-flex .min_box p {
+  font-family: Mark-Pro, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 80px;
+  width: 419px;
+}
+
+body main .educational_progress .container .row .col-xl-12 .header_title h2 {
+  font-family: Mark-Pro-Bold, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin: 40px 0 70px 0;
+}
+
+body main .educational_progress .container .row .col-xl-12 .collect_cards {
+  margin-bottom: 92px;
+}
+
+body main .educational_progress .container .row .col-xl-12 .collect_cards .border_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 270px;
+  height: 350px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+
+body main .educational_progress .container .row .col-xl-12 .collect_cards .border_card p {
+  font-family: Mark-Pro-Medium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin: 35px 0 0 0;
+  width: 204px;
+}
+
+body main .educational_progress .container .row .col-xl-12 .course_program {
+  border: 2px solid #000000;
+  border-radius: 25px;
+  padding: 80px 90px 105px 90px;
+}
+
+body main .educational_progress .container .row .col-xl-12 .course_program .program_title h2 {
+  font-family: Mark-Pro-Bold, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: 100px;
+}
+
+body main .educational_progress .container .row .col-xl-12 .course_program .program_box {
+  border-top: 2px solid #000000;
+  padding: 20px 0;
+}
+
+body main .educational_progress .container .row .col-xl-12 .course_program .program_box:last-child {
+  border-bottom: 2px solid #000000;
+}
+
+body main .educational_progress .container .row .col-xl-12 .course_program .program_box .rounded-circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: #000000;
+  text-align: center;
+  color: #ffcf23;
+}
+
+body main .educational_progress .container .row .col-xl-12 .course_program .program_box p {
+  font-family: Mark-Pro, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 5px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin: 0 0 0 40px;
+}
+
+body main .helper_content {
+  background: #000000;
+  padding: 100px 0;
+  margin: 100px 0 150px 0;
+}
+
+body main .helper_content .container .row .col-xl-12 .input_group_header {
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+body main .helper_content .container .row .col-xl-12 .input_group_header .helper_title {
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+body main .helper_content .container .row .col-xl-12 .input_group_header .helper_title h3 {
+  font-family: Mark-Pro-Bold, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  margin-bottom: 0;
+  width: 447px;
+}
+
+body main .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body main .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs input {
+  background: #f3f3f3;
+  border: 0.3px solid #808080;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  padding: 20px 15px;
+  font-family: Mark_Pro, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #7f7f7f;
+  width: 240px;
+  margin-bottom: 10px;
+}
+
+body main .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs input#name {
+  width: 500px;
+}
+
+body main .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs input#number {
+  margin-right: 11px;
+}
+
+body main .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .submit_btn {
+  font-family: Mark-Pro, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 9px 68.44px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+body main .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .submit_btn span {
+  background: #ffcf23;
+  margin-left: 10px;
+}
+
+body main .mentor-content .container .row .col-xl-12 .mentor_title h2 {
+  font-family: Mark-Pro-Bold, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: 70px;
+}
+
+body main .mentor-content .container .row .col-xl-12 .d-flex .mentor_cards img {
+  border-radius: 10px;
+  width: 100%;
+  height: 349.27px;
+}
+
+body main .mentor-content .container .row .col-xl-12 .d-flex .mentor_cards h5 {
+  font-family: Mark-Pro-Heavy, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #131637;
+  margin: 25.79px 0 0 0;
+  width: 141px;
+}
+
+body main .mentor-content .container .row .col-xl-12 .d-flex .mentor_cards hr {
+  opacity: 1;
+  border: 1px solid #000000;
+  margin: 29.94px 0 20px 0;
+}
+
+body main .mentor-content .container .row .col-xl-12 .d-flex .mentor_cards p {
+  font-family: Mark-Pro-Medium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #131637;
+  margin-bottom: 170px;
+}
+
+body section .price_course {
+  padding-bottom: 120px;
+}
+
+body section .price_course .container .row .col-xl-12 .buy_course {
+  width: 50%;
+  background: rgba(255, 207, 35, 0.1);
+  padding: 60px 70px 26px 70px;
+  height: 531px;
+}
+
+body section .price_course .container .row .col-xl-12 .buy_course h5 {
+  font-family: Mark-Pro-Bold, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: 60px;
+}
+
+body section .price_course .container .row .col-xl-12 .buy_course .nav .nav-item .active {
+  color: #000000 !important;
+  border-bottom: 3px solid #ffcf23 !important;
+  margin-top: -1.5px;
+}
+
+body section .price_course .container .row .col-xl-12 .buy_course .nav .nav-item .nav-link {
+  background: none;
+  font-family: Mark-Pro-Medium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #7f7f7f;
+  border-radius: unset;
+  border-bottom: 1px solid #7f7f7f;
+}
+
+body section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box {
+  border-top: 1px solid #7f7f7f;
+  padding: 20px 0 10px 0;
+}
+
+body section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box:nth-child(2) {
+  border-bottom: 1px solid #7f7f7f;
+}
+
+body section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box .d-flex #chack {
+  width: 14px;
+  height: 14px;
+  border: 50px solid #000000;
+  border-radius: unset;
+  margin: 4px 20px 0 0;
+}
+
+body section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box .d-flex h4 {
+  font-family: Mark-Pro-Bold, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+body section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box .d-flex h4 span {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+body section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .sum_box p {
+  font-family: Mark-Pro-Medium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin: 0;
+}
+
+body section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson {
+  margin-top: 50px;
+}
+
+body section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson p {
+  font-family: Mark-Pro-Medium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #808080;
+  margin-bottom: 10px;
+}
+
+body section .price_course .container .row .col-xl-12 .buy_course .tab-content .tab-pane .start_lesson p span {
+  color: #000000;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types {
+  width: 50%;
+  background: #f7f7f5;
+  padding: 60px 70px 61px 70px;
+  height: 1000px;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .bill_title h5 {
+  font-family: Mark-Pro-Bold, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: 60px;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .d-flex {
+  width: 340px;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .d-flex .bill-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-decoration: none;
+  background: #ffffff;
+  border-radius: 6.94444px;
+  width: 150px;
+  height: 125px;
+  margin-bottom: 40px;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .d-flex .bill-card p {
+  font-family: Mark-Pro-Medium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11.2px;
+  line-height: 14px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  padding-top: 6px;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .voucher_input {
+  margin-top: 10px;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .voucher_input label {
+  font-family: Mark-Pro-Bold, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .voucher_input #vaucher {
+  font-family: Mark-Pro, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #7f7f7f;
+  border: none;
+  border-bottom: 1px solid #7f7f7f;
+  background: transparent;
+  width: 100%;
+  padding: 5px 0;
+  outline: none;
+  margin-bottom: 37px;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title h5 {
+  font-family: Mark-Pro-Bold, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .vaucher_sum,
+body section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .discount_sum {
+  width: 100%;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .vaucher_sum p,
+body section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .discount_sum p {
+  font-family: Mark-Pro-Medium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .discount_sum {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #7f7f7f;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .total_sum {
+  width: 100%;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .total_sum h5 {
+  font-family: Mark-Pro-Medium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin: 7px 0 55px 0;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .voucher_input .vaucher_title .total_sum h5 span {
+  font-size: 25px;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .buttun_collect {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .buttun_collect button {
+  width: 225px;
+  height: 55px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Mark-Pro-Medium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  border-radius: 10px;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .buttun_collect .buy_btn {
+  background: #ffcf23;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .buttun_collect .help_btn {
+  border: 1px solid #000000;
+}
+
+body section .price_course .container .row .col-xl-12 .bill_types .buttun_collect .help_btn span {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  background: #000000;
+}
+/*# sourceMappingURL=data.css.map */

@@ -1,0 +1,273 @@
+@font-face {
+  font-family: Mark-Pro;
+  src: url("../fonst/Mark Pro.ttf");
+}
+
+@font-face {
+  font-family: Mark-Pro-Bold;
+  src: url("../fonst/Mark Pro Bold.ttf");
+}
+
+@font-face {
+  font-family: Mark-Pro-Heavy;
+  src: url("../fonst/Mark Pro Heavy.ttf");
+}
+
+@font-face {
+  font-family: Mark-Pro-Medium;
+  src: url("../fonst/Mark Pro Medium.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("../fonst/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../fonst/Poppins-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+          mask-size: 100%;
+  -webkit-mask-position: center;
+          mask-position: center;
+  vertical-align: middle;
+}
+
+.icon.icon-cachet {
+  -webkit-mask-image: url("../../icons/stamp.png");
+          mask-image: url("../../icons/stamp.png");
+}
+
+.icon.icon-bracket {
+  -webkit-mask-image: url("../../icons/line.svg");
+          mask-image: url("../../icons/line.svg");
+}
+
+.icon.icon-instagram {
+  -webkit-mask-image: url("../../icons/instagram.svg");
+          mask-image: url("../../icons/instagram.svg");
+}
+
+.icon.icon-facebook {
+  -webkit-mask-image: url("../../icons/facebook.svg");
+          mask-image: url("../../icons/facebook.svg");
+}
+
+.icon.icon-telegram {
+  -webkit-mask-image: url("../../icons/telegram.svg");
+          mask-image: url("../../icons/telegram.svg");
+}
+
+.icon.icon-restangle {
+  -webkit-mask-image: url("../../icons/RectangleFly.svg");
+          mask-image: url("../../icons/RectangleFly.svg");
+}
+
+.icon.icon-arrow {
+  -webkit-mask-image: url("../../icons/RectangleLine.svg");
+          mask-image: url("../../icons/RectangleLine.svg");
+}
+
+.icon.icon-play {
+  -webkit-mask-image: url("../icons/play.svg");
+          mask-image: url("../icons/play.svg");
+}
+
+.icon.icon-course {
+  -webkit-mask-image: url("../icons/course.svg");
+          mask-image: url("../icons/course.svg");
+  width: 20px;
+  height: 20px;
+}
+
+.icon.icon-mentors {
+  -webkit-mask-image: url("../icons/mentors.svg");
+          mask-image: url("../icons/mentors.svg");
+  width: 25px;
+  height: 20px;
+}
+
+.icon.icon-students {
+  -webkit-mask-image: url("../icons/students.svg");
+          mask-image: url("../icons/students.svg");
+  width: 17.5px;
+  height: 20px;
+}
+
+.btn:focus {
+  display: none;
+}
+
+body header .navbar {
+  padding: 0;
+}
+
+body header .navbar .container {
+  padding: 60px 0 0 0;
+}
+
+body header .navbar .container .navbar-brand {
+  padding: 0;
+}
+
+body header .navbar .container .navbar-brand img {
+  width: 170px;
+  height: 43px;
+}
+
+body header .navbar .container .collapse .nav-item .active {
+  color: #ffcf23 !important;
+}
+
+body header .navbar .container .collapse .nav-item .nav-link {
+  font-family: Mark-Pro, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 20px;
+  color: #000000;
+  padding: 0 30px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body header .navbar .container .collapse .nav-item .nav-link span {
+  background: #000000;
+  width: 1rem;
+  height: 1rem;
+}
+
+body header .navbar .container .collapse .nav-item .nav-link:hover {
+  color: #ffcf23;
+}
+
+body header .navbar .container .collapse .nav-item .dropdown-toggle::after {
+  -webkit-mask-image: url("../../icons/Rectangle.svg");
+          mask-image: url("../../icons/Rectangle.svg");
+  background: #ffffff;
+  opacity: 1;
+  width: 6px;
+  height: 6px;
+}
+
+body header .navbar .container .collapse .nav-item .dropdown-menu {
+  left: -55px;
+}
+
+body header .navbar .container .collapse .nav-item .dropdown-menu .dropdown-item img {
+  width: 170px;
+  height: 2rem;
+}
+
+body section .footer {
+  background-color: #ffcf23;
+  padding: 50px 0 38px 0;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_title img {
+  width: 124px;
+  height: 44.47px;
+  margin-bottom: 15.53px;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_title a {
+  font-family: Mark-Pro, sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #131637;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_link a {
+  font-family: Mark-Pro, sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #131637;
+  margin-bottom: 1rem;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_icon .d-flex {
+  margin-bottom: 13px;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_icon .d-flex span {
+  background: #000000;
+  width: 20px;
+  height: 20px;
+}
+
+body section .footer .container .row .col-xl-7 .d-flex .footer_icon .d-flex a {
+  text-decoration: none;
+  font-family: Mark-Pro, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.025em;
+  color: #131637;
+  margin-left: 15px;
+}
+
+body section .footer .container .row .col-xl-5 .footer_location img {
+  width: 91.34px;
+  height: 87.56px;
+}
+
+body section .footer .container .row .col-xl-5 .footer_location a {
+  font-family: Poppins-Regular, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #131637;
+  width: 192px;
+  margin-left: 48.57px;
+}
+/*# sourceMappingURL=basic.css.map */
