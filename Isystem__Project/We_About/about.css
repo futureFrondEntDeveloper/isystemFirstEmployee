@@ -515,28 +515,58 @@ body main .learn_pragramm .container .row .col-xl-12 .founders-content .founders
   width: 156px;
 }
 
-body main .learn_pragramm .container .row .col-xl-12 .art_gallary {
+body main .learn_pragramm .container .row .col-xl-12 .carusel h1 {
+  font-family: Poppins-Bold;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.025em;
+  margin-bottom: 1.875rem;
+}
+
+body main .learn_pragramm .container .row .col-xl-12 .carusel p {
+  font-family: Poppins-Regular;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  letter-spacing: 0.025em;
+  margin-bottom: 3.125rem;
+}
+
+body main .learn_pragramm .container .row .col-xl-12 .carusel .owl-carousel .item {
+  border-radius: 0.625rem;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body main .learn_pragramm .container .row .col-xl-12 .carusel .owl-carousel .item img {
+  width: 43.75rem;
+  height: 25rem;
+}
+
+body main .learn_pragramm .container .row .col-xl-12 .carusel .owl-carousel .owl-nav {
+  margin-top: 2.8125rem;
   color: #000000;
 }
 
-body main .learn_pragramm .container .row .col-xl-12 .art_gallary h2 {
-  font-family: Poppins-Bold, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 32px;
-  letter-spacing: 0.025em;
-  margin-bottom: 30px;
+body main .learn_pragramm .container .row .col-xl-12 .carusel .owl-carousel .owl-nav .owl-prev {
+  margin: 0 25px;
+  -webkit-transform: scale(3);
+          transform: scale(3);
 }
 
-body main .learn_pragramm .container .row .col-xl-12 .art_gallary h6 {
-  font-family: Poppins-Regular, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 32px;
-  letter-spacing: 0.025em;
-  margin-bottom: 592px;
+body main .learn_pragramm .container .row .col-xl-12 .carusel .owl-carousel .owl-nav .owl-prev:hover {
+  color: silver;
+  background: #ffffff;
+}
+
+body main .learn_pragramm .container .row .col-xl-12 .carusel .owl-carousel .owl-nav .owl-next {
+  -webkit-transform: scale(3);
+          transform: scale(3);
+}
+
+body main .learn_pragramm .container .row .col-xl-12 .carusel .owl-carousel .owl-nav .owl-next:hover {
+  color: silver;
+  background: #ffffff;
 }
 
 body main .teamOur .container .row .col-xl-12 .team_title h2 {

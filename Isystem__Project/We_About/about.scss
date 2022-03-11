@@ -1,4 +1,8 @@
 @import "../basic/basic.scss";
+@function torem($value) {
+  $remValue: ($value / 16) + rem;
+  @return $remValue;
+}
 
 body {
   header {
@@ -236,25 +240,50 @@ body {
                 }
               }
             }
-            .art_gallary {
-              color: $colorDark;
-              h2 {
-                font-family: Poppins-Bold, sans-serif;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 40px;
-                line-height: 32px;
+            .carusel {
+              h1 {
+                font-family: Poppins-Bold;
+                font-size: torem(40);
+                line-height: torem(32);
                 letter-spacing: 0.025em;
-                margin-bottom: 30px;
+                margin-bottom: torem(30);
               }
-              h6 {
-                font-family: Poppins-Regular, sans-serif;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 20px;
-                line-height: 32px;
+              p {
+                font-family: Poppins-Regular ;
+                font-size: torem(20);
+                line-height: torem(32);
                 letter-spacing: 0.025em;
-                margin-bottom: 592px;
+                margin-bottom: torem(50);
+              }
+              .owl-carousel{
+                .item{
+                  border-radius: torem(10);
+                  overflow: hidden;
+                  object-fit: cover;
+                  img{
+                    width: torem(700);
+                    height: torem(400);
+                  }
+                }
+                 .owl-nav{
+                   margin-top: torem(45);
+                   color: #000000;
+                   .owl-prev{
+                    margin:0 25px;
+                    transform: scale(3);
+                    &:hover{
+                      color: silver;
+                      background: #ffffff;
+                    }
+                   }
+                    .owl-next{
+                     transform: scale(3);
+                     &:hover{
+                      color: silver;
+                      background:#ffffff;
+                    }
+                   }
+                 }
               }
             }
           }
