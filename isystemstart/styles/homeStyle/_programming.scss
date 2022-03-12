@@ -1,0 +1,120 @@
+.programming {
+  margin-bottom: 65px;
+  .customContainer {
+    .text1 {
+      div {
+        white-space: nowrap;
+        display: flex;
+        border-bottom: 1px solid black;
+        padding: 17px 0;
+        align-items: center;
+        animation: animate 40s linear infinite;
+
+        &:nth-child(2) {
+          animation: animate2 40s linear infinite;
+          animation-delay: -20s;
+        }
+      }
+      span {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.025em;
+      }
+    }
+    .text2 {
+      div {
+        white-space: nowrap;
+        display: flex;
+        border-bottom: 1px solid black;
+        padding: 17px 0;
+        align-items: center;
+        animation: animate 30s linear infinite;
+
+        &:nth-child(2) {
+          animation: animate2 30s linear infinite;
+          animation-delay: -15s;
+        }
+      }
+      span {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.025em;
+      }
+    }
+    .text3 {
+      div {
+        white-space: nowrap;
+        display: flex;
+        border-bottom: 1px solid black;
+        padding: 17px 0;
+        align-items: center;
+        animation: animate 30s linear infinite;
+
+        &:nth-child(2) {
+          animation: animate2 30s linear infinite;
+          animation-delay: -15s;
+        }
+      }
+      span {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.025em;
+      }
+    }
+    .text4 {
+      div {
+        white-space: nowrap;
+        display: flex;
+        border-bottom: 1px solid black;
+        padding: 17px 0;
+        align-items: center;
+        animation: animate 24s linear infinite;
+
+        &:nth-child(2) {
+          animation: animate2 24s linear infinite;
+          animation-delay: -12s;
+        }
+      }
+      span {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.025em;
+      }
+    }
+    .scroll {
+      width: 100%;
+      display: flex;
+      overflow: hidden;
+      height: max-content;
+      border-top: 1px solid black;
+      @keyframes animate {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      @keyframes animate2 {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-200%);
+        }
+      }
+    }
+  }
+}

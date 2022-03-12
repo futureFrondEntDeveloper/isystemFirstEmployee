@@ -1,0 +1,1694 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.headerHome {
+  position: relative;
+  background: white;
+  padding-bottom: 195px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, white), color-stop(50%, #101010));
+  background: linear-gradient(90deg, white 50%, #101010 50%);
+}
+
+.leang {
+  color: #fff !important;
+}
+
+.customBtn {
+  background: #ffcf23;
+  border-radius: 8px;
+  padding: 20px 25px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.personPhoto {
+  position: absolute;
+  width: 60%;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+
+.personPhoto .position-relative {
+  width: 100%;
+  height: 100%;
+}
+
+.personPhoto .position-relative img:nth-child(1) {
+  position: absolute;
+  top: 37px;
+  right: 354px;
+  z-index: 1;
+}
+
+.personPhoto .position-relative img:nth-child(2) {
+  position: absolute;
+  width: 520px;
+  top: 290px;
+  right: 275px;
+  z-index: 2;
+}
+
+.personPhoto .position-relative img:nth-child(3) {
+  position: absolute;
+  top: 366px;
+  right: 0px;
+  z-index: 0;
+}
+
+.personPhoto .position-relative img:nth-child(4) {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  z-index: 3;
+}
+
+.current {
+  background-color: #000;
+}
+
+.current .container .row .col-xl-8 h5 {
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  margin-top: 50px;
+  padding-right: 129px;
+  letter-spacing: 0.025em;
+}
+
+.current .container .row .col-xl-8 .row .col-xl-3 h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  padding-top: 70px;
+  color: #ffcf23;
+}
+
+.current .container .row .col-xl-8 .row .col-xl-3 p, .current .loginOne .container .row .col-xl-8 .row .col-xl-3 .col-xl-5 .card form .sends span, .loginOne .current .container .row .col-xl-8 .row .col-xl-3 .col-xl-5 .card form .sends span, .current .loginOne .container .row .col-xl-5 .card form .sends .col-xl-8 .row .col-xl-3 span, .loginOne .current .container .row .col-xl-5 .card form .sends .col-xl-8 .row .col-xl-3 span, .current .loginsecond .container .row .col-xl-8 .row .col-xl-3 .col-xl-5 .card .sends span, .loginsecond .current .container .row .col-xl-8 .row .col-xl-3 .col-xl-5 .card .sends span, .current .loginsecond .container .row .col-xl-5 .card .sends .col-xl-8 .row .col-xl-3 span, .loginsecond .current .container .row .col-xl-5 .card .sends .col-xl-8 .row .col-xl-3 span {
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+  font-size: 16px;
+  line-height: 35px;
+  padding: 12px 0 12px 0;
+  letter-spacing: 0.025em;
+  border-bottom: 3.5px solid #ffcf23;
+  margin-bottom: 70px;
+}
+
+.current .container .row .col-xl-4 {
+  position: relative;
+}
+
+.current .container .row .col-xl-4 img {
+  position: absolute;
+  top: -52px;
+  z-index: 3;
+}
+
+.direction .container h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.025em;
+  padding-top: 130px;
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.direction .container .dataDirection {
+  width: 60%;
+}
+
+.direction .container .dataDirection p, .direction .loginOne .container .dataDirection .row .col-xl-5 .card form .sends span, .loginOne .direction .container .dataDirection .row .col-xl-5 .card form .sends span, .direction .loginOne .container .row .col-xl-5 .card form .sends .dataDirection span, .loginOne .direction .container .row .col-xl-5 .card form .sends .dataDirection span, .direction .loginsecond .container .dataDirection .row .col-xl-5 .card .sends span, .loginsecond .direction .container .dataDirection .row .col-xl-5 .card .sends span, .direction .loginsecond .container .row .col-xl-5 .card .sends .dataDirection span, .loginsecond .direction .container .row .col-xl-5 .card .sends .dataDirection span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  margin: 0;
+}
+
+.direction .container .dataBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.direction .container .dataBox .box {
+  width: 48%;
+  padding: 41px;
+  background: #f7f7f5;
+  border-radius: 10px;
+  margin-top: 60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.direction .container .dataBox .box .row .dataText {
+  margin: 0;
+  padding: 0;
+  height: 162px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.direction .container .dataBox .box .row .dataText h5 {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 40px;
+  letter-spacing: 0.025em;
+}
+
+.direction .container .dataBox .box .row .dataText p, .direction .loginOne .container .dataBox .box .row .dataText .col-xl-5 .card form .sends span, .loginOne .direction .container .dataBox .box .row .dataText .col-xl-5 .card form .sends span, .direction .loginOne .container .dataBox .box .row .col-xl-5 .card form .sends .dataText span, .loginOne .direction .container .dataBox .box .row .col-xl-5 .card form .sends .dataText span, .direction .loginsecond .container .dataBox .box .row .dataText .col-xl-5 .card .sends span, .loginsecond .direction .container .dataBox .box .row .dataText .col-xl-5 .card .sends span, .direction .loginsecond .container .dataBox .box .row .col-xl-5 .card .sends .dataText span, .loginsecond .direction .container .dataBox .box .row .col-xl-5 .card .sends .dataText span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 0.025em;
+  margin: 0;
+}
+
+.direction .container .dataBox .box .row .right {
+  padding: 0;
+}
+
+.direction .container .dataBox .box .row .right .dataImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+}
+
+.direction .container .dataBox .box .row .right .dataImg img {
+  width: 190px;
+  height: 130px;
+  border-radius: 4.90909px;
+  text-align: end;
+  display: block;
+}
+
+.direction .container .dataDirec p, .direction .loginOne .container .dataDirec .row .col-xl-5 .card form .sends span, .loginOne .direction .container .dataDirec .row .col-xl-5 .card form .sends span, .direction .loginOne .container .row .col-xl-5 .card form .sends .dataDirec span, .loginOne .direction .container .row .col-xl-5 .card form .sends .dataDirec span, .direction .loginsecond .container .dataDirec .row .col-xl-5 .card .sends span, .loginsecond .direction .container .dataDirec .row .col-xl-5 .card .sends span, .direction .loginsecond .container .row .col-xl-5 .card .sends .dataDirec span, .loginsecond .direction .container .row .col-xl-5 .card .sends .dataDirec span {
+  margin-bottom: 80px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.025em;
+}
+
+.quetionDirection .container .boxes {
+  background-color: #000;
+  padding: 60px 50px 54px 50px;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
+
+.quetionDirection .container .boxes h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 27px;
+  letter-spacing: 0.025em;
+  margin-bottom: 54px;
+}
+
+.quetionDirection .container .boxes button span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sertifikat .container .sert {
+  position: relative;
+  background: #ffcf23;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.sertifikat .container .sert img {
+  position: absolute;
+  position: absolute;
+  top: 199px;
+  left: 416px;
+}
+
+.sertifikat .container .sert .row .col h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  margin-bottom: 80px;
+}
+
+.sertifikat .container .sert .row .col p, .sertifikat .loginOne .container .sert .row .col .col-xl-5 .card form .sends span, .loginOne .sertifikat .container .sert .row .col .col-xl-5 .card form .sends span, .sertifikat .loginOne .container .sert .row .col-xl-5 .card form .sends .col span, .loginOne .sertifikat .container .sert .row .col-xl-5 .card form .sends .col span, .sertifikat .loginsecond .container .sert .row .col .col-xl-5 .card .sends span, .loginsecond .sertifikat .container .sert .row .col .col-xl-5 .card .sends span, .sertifikat .loginsecond .container .sert .row .col-xl-5 .card .sends .col span, .loginsecond .sertifikat .container .sert .row .col-xl-5 .card .sends .col span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  margin-bottom: 180px;
+  padding-right: 110px;
+}
+
+.sertifikat .container .sert .row .col .message {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.sertifikat .container .sert .row .col .message .boxCard {
+  width: 490px;
+  height: 305px;
+  background: #ffffff;
+  overflow: hidden;
+  position: relative;
+}
+
+.sertifikat .container .sert .row .col .message .boxCard .minus {
+  position: absolute;
+  width: 3px;
+  background: #b2b6bb;
+  height: 597px;
+  -webkit-transform: rotate(58deg);
+          transform: rotate(58deg);
+  left: 238px;
+  z-index: 1;
+  bottom: -150px;
+}
+
+.sertifikat .container .sert .row .col .message .boxCard .plus {
+  position: absolute;
+  width: 3px;
+  background: #b2b6bb;
+  height: 597px;
+  -webkit-transform: rotate(58deg);
+  transform: rotate(-58deg);
+  left: 249px;
+  z-index: 2;
+  bottom: -150px;
+}
+
+.learn .container h1 {
+  margin: 70px 0;
+}
+
+.learn .container .reference {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: -webkit-max-content;
+  grid-auto-rows: max-content;
+  gap: 1rem;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 80px;
+}
+
+.learn .container .reference .box {
+  color: white;
+  background: #000000;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.learn .container .reference .box h6 {
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.025em;
+  padding: 60px 60px 20px 60px;
+}
+
+.learn .container .reference .box p, .learn .loginOne .container .reference .box .row .col-xl-5 .card form .sends span, .loginOne .learn .container .reference .box .row .col-xl-5 .card form .sends span, .learn .loginOne .container .row .col-xl-5 .card form .sends .reference .box span, .loginOne .learn .container .row .col-xl-5 .card form .sends .reference .box span, .learn .loginsecond .container .reference .box .row .col-xl-5 .card .sends span, .loginsecond .learn .container .reference .box .row .col-xl-5 .card .sends span, .learn .loginsecond .container .row .col-xl-5 .card .sends .reference .box span, .loginsecond .learn .container .row .col-xl-5 .card .sends .reference .box span {
+  font-size: 15px;
+  line-height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 0.025em;
+  padding: 0 52px;
+  margin-bottom: 31px;
+}
+
+.learn .container .reference .box img {
+  padding-bottom: 60px;
+}
+
+.mentors .container h1 {
+  margin-bottom: 70px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.025em;
+}
+
+.mentors .container .owl-carousel .item img {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.mentors .container .owl-carousel .item h6 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin: 25px 22px 0 0;
+  padding: 0 106px 30px 0;
+  border-bottom: 1px solid black;
+}
+
+.mentors .container .owl-carousel .item p, .mentors .loginOne .container .owl-carousel .item .row .col-xl-5 .card form .sends span, .loginOne .mentors .container .owl-carousel .item .row .col-xl-5 .card form .sends span, .mentors .loginOne .container .row .col-xl-5 .card form .sends .owl-carousel .item span, .loginOne .mentors .container .row .col-xl-5 .card form .sends .owl-carousel .item span, .mentors .loginsecond .container .owl-carousel .item .row .col-xl-5 .card .sends span, .loginsecond .mentors .container .owl-carousel .item .row .col-xl-5 .card .sends span, .mentors .loginsecond .container .row .col-xl-5 .card .sends .owl-carousel .item span, .loginsecond .mentors .container .row .col-xl-5 .card .sends .owl-carousel .item span {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-top: 20px;
+  padding-right: 145px;
+}
+
+.mentors .container .owl-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mentors .container .owl-dots .owl-dot {
+  width: 50px;
+  height: 0px;
+  border: 2px solid #000000;
+  margin: 50px 1px 50px 1px;
+}
+
+.mentors .container .owl-dots .owl-dot.active {
+  border: 2px solid #FFCF23;
+}
+
+.programming {
+  margin-bottom: 65px;
+}
+
+.programming .customContainer .text1 div {
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 17px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: animate 40s linear infinite;
+          animation: animate 40s linear infinite;
+}
+
+.programming .customContainer .text1 div:nth-child(2) {
+  -webkit-animation: animate2 40s linear infinite;
+          animation: animate2 40s linear infinite;
+  -webkit-animation-delay: -20s;
+          animation-delay: -20s;
+}
+
+.programming .customContainer .text1 span {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.025em;
+}
+
+.programming .customContainer .text2 div {
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 17px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: animate 30s linear infinite;
+          animation: animate 30s linear infinite;
+}
+
+.programming .customContainer .text2 div:nth-child(2) {
+  -webkit-animation: animate2 30s linear infinite;
+          animation: animate2 30s linear infinite;
+  -webkit-animation-delay: -15s;
+          animation-delay: -15s;
+}
+
+.programming .customContainer .text2 span {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.025em;
+}
+
+.programming .customContainer .text3 div {
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 17px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: animate 30s linear infinite;
+          animation: animate 30s linear infinite;
+}
+
+.programming .customContainer .text3 div:nth-child(2) {
+  -webkit-animation: animate2 30s linear infinite;
+          animation: animate2 30s linear infinite;
+  -webkit-animation-delay: -15s;
+          animation-delay: -15s;
+}
+
+.programming .customContainer .text3 span {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.025em;
+}
+
+.programming .customContainer .text4 div {
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 17px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: animate 24s linear infinite;
+          animation: animate 24s linear infinite;
+}
+
+.programming .customContainer .text4 div:nth-child(2) {
+  -webkit-animation: animate2 24s linear infinite;
+          animation: animate2 24s linear infinite;
+  -webkit-animation-delay: -12s;
+          animation-delay: -12s;
+}
+
+.programming .customContainer .text4 span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.025em;
+}
+
+.programming .customContainer .scroll {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  border-top: 1px solid black;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes animate2 {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-200%);
+            transform: translateX(-200%);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-200%);
+            transform: translateX(-200%);
+  }
+}
+
+.helper_content {
+  background: #000;
+  padding: 100px 0;
+}
+
+.helper_content .container .row .col-xl-12 .input_group_header {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.helper_content .container .row .col-xl-12 .input_group_header .helper_title {
+  letter-spacing: 0.025em;
+  color: #000;
+}
+
+.helper_content .container .row .col-xl-12 .input_group_header .helper_title h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 28px;
+  margin-bottom: 2rem;
+}
+
+.helper_content .container .row .col-xl-12 .input_group_header .helper_title p, .helper_content .loginOne .container .row .col-xl-12 .input_group_header .helper_title .col-xl-5 .card form .sends span, .loginOne .helper_content .container .row .col-xl-12 .input_group_header .helper_title .col-xl-5 .card form .sends span, .helper_content .loginOne .container .row .col-xl-5 .card form .sends .col-xl-12 .input_group_header .helper_title span, .loginOne .helper_content .container .row .col-xl-5 .card form .sends .col-xl-12 .input_group_header .helper_title span, .helper_content .loginsecond .container .row .col-xl-12 .input_group_header .helper_title .col-xl-5 .card .sends span, .loginsecond .helper_content .container .row .col-xl-12 .input_group_header .helper_title .col-xl-5 .card .sends span, .helper_content .loginsecond .container .row .col-xl-5 .card .sends .col-xl-12 .input_group_header .helper_title span, .loginsecond .helper_content .container .row .col-xl-5 .card .sends .col-xl-12 .input_group_header .helper_title span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 25px;
+  width: 451px;
+  margin: 0;
+}
+
+.helper_content .container .row .col-xl-12 .input_group_header .helper_inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.helper_content .container .row .col-xl-12 .input_group_header .helper_inputs input, .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .formToAdmin .forms form .dropdown-toggle, .helper_content .container .formToAdmin .forms form .row .col-xl-12 .input_group_header .helper_inputs .dropdown-toggle {
+  background: #f3f3f3;
+  border: 0.3px solid #808080;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  padding: 20px 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #7f7f7f;
+  width: 240px;
+  margin-bottom: 10px;
+}
+
+.helper_content .container .row .col-xl-12 .input_group_header .helper_inputs input#name, .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .formToAdmin .forms form #name.dropdown-toggle, .helper_content .container .formToAdmin .forms form .row .col-xl-12 .input_group_header .helper_inputs #name.dropdown-toggle {
+  width: 500px;
+}
+
+.helper_content .container .row .col-xl-12 .input_group_header .helper_inputs input#number, .helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .formToAdmin .forms form #number.dropdown-toggle, .helper_content .container .formToAdmin .forms form .row .col-xl-12 .input_group_header .helper_inputs #number.dropdown-toggle {
+  margin-right: 11px;
+}
+
+.helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .submit_btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  background-color: #000;
+  padding: 9px 68.44px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.helper_content .container .row .col-xl-12 .input_group_header .helper_inputs .submit_btn span {
+  background: #ffcf23;
+  margin-left: 10px;
+}
+
+@font-face {
+  font-family: Mark;
+  src: url("../MarkPro/Mark Pro.ttf");
+}
+
+@font-face {
+  font-family: Mark-Bold;
+  src: url("../MarkPro/Mark Pro Bold.ttf");
+}
+
+.headerCorses {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.headerCorses .menu {
+  width: 27%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding-top: 140px;
+  background: rgba(255, 207, 35, 0.1);
+}
+
+.headerCorses .menu .d-flex {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.headerCorses .menu .d-flex h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  padding: 0 6px;
+  color: #7f7f7f;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #7f7f7f;
+  cursor: pointer;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.headerCorses .menu .d-flex h6:hover {
+  color: #ffcf23;
+}
+
+.headerCorses .menu .d-flex .active {
+  color: #000;
+  border-bottom: 2px solid #ffcf23;
+}
+
+.headerCorses .links {
+  width: 70%;
+  position: absolute;
+  top: 140px;
+  right: 12px;
+}
+
+.headerCorses .links .row .col-xl-3 h6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.headerCorses .links .row .col-xl-3 ul {
+  padding: 0;
+  margin: 0;
+}
+
+.headerCorses .links .row .col-xl-3 ul li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.headerCorses .links .row .col-xl-3 ul li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  text-decoration: none;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.headerCorses .links .row .col-xl-3 ul li a:hover {
+  color: #ffcf23;
+}
+
+.container .formToAdmin {
+  text-align: center;
+}
+
+.container .formToAdmin h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 0;
+  line-height: 32px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+.container .formToAdmin p, .loginOne .container .formToAdmin .row .col-xl-5 .card form .sends span, .loginOne .container .row .col-xl-5 .card form .sends .formToAdmin span, .loginsecond .container .formToAdmin .row .col-xl-5 .card .sends span, .loginsecond .container .row .col-xl-5 .card .sends .formToAdmin span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+
+.container .formToAdmin .forms {
+  padding: 16px 40px;
+  background-color: #ffcf23;
+  border-radius: 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  margin-bottom: 81px;
+}
+
+.container .formToAdmin .forms form input, .container .formToAdmin .forms form .dropdown-toggle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  padding: 15px 20px;
+  display: block;
+  width: 470px;
+  background: #ffffff;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.container .formToAdmin .forms form .dropdown-toggle {
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-top: 45px;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.container .formToAdmin .forms form .send {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+  width: 470px;
+  background: #000000;
+  border: 0.5px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 50px;
+  color: #ffcf23;
+}
+
+.container .formToAdmin .forms form .send span {
+  color: #fff;
+  font-size: 26px;
+  padding-left: 15px;
+}
+
+.section1 {
+  margin-bottom: 60px;
+}
+
+.section1 .box {
+  margin-bottom: 51px;
+}
+
+.section1 .box h1 {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 76px;
+  color: black;
+  margin-right: 350px;
+}
+
+.section1 .box h1 span {
+  color: #ffcf23;
+}
+
+.section1 .box img {
+  position: absolute;
+  right: 200px;
+}
+
+.section1 .box h2 {
+  font-weight: 700;
+  font-size: 23.9198px;
+  line-height: 24px;
+  margin-left: 170px;
+  color: #000000;
+}
+
+.section1 .box h2::after {
+  content: "";
+  margin-left: 5px;
+  display: inline-block;
+  width: 66.74px;
+  height: 15.03px;
+  background-color: #ffcf23;
+}
+
+.section1 .desc {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-right: 80px;
+}
+
+.section2 {
+  margin-bottom: 130px;
+}
+
+.section2 .col {
+  background-color: #1c1c1e;
+  cursor: pointer;
+}
+
+.section2 .col .isystem {
+  width: 462px;
+}
+
+.section2 .col .iconPlay {
+  position: absolute;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.section2 .col:hover .iconPlay {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.section3 {
+  margin-bottom: 130px;
+}
+
+.section3 h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+.section3 .col {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: -webkit-max-content;
+  grid-auto-rows: max-content;
+  gap: 3rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section3 .col .box {
+  background-color: #ffcf23;
+  border-radius: 10px;
+  padding: 40px 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section3 .col .box .txt {
+  margin-left: 40px;
+}
+
+.section3 .col .box .txt h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 20px;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.section3 .col .box .txt span {
+  font-size: 20px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  padding-left: 10px;
+}
+
+.section3 .col .box img {
+  position: absolute;
+}
+
+.section4 {
+  margin-bottom: 100px;
+  padding: 70px 0;
+  background-color: #000000;
+  color: white;
+}
+
+.section4 .title {
+  margin-bottom: 80px;
+}
+
+.section4 .title h1 {
+  margin-bottom: 124px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  color: #ffffff;
+}
+
+.section4 .title p, .section4 .title .loginOne .container .row .col-xl-5 .card form .sends span, .loginOne .container .row .col-xl-5 .card form .sends .section4 .title span, .section4 .title .loginsecond .container .row .col-xl-5 .card .sends span, .loginsecond .container .row .col-xl-5 .card .sends .section4 .title span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  margin-right: 130px;
+}
+
+.section4 .cards img {
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+.section4 .cards h1 {
+  width: 100%;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  padding: 0 180px 24px 0;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.section5 {
+  margin-bottom: 80px;
+}
+
+.section5 h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 32px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.section5 p, .section5 .loginOne .container .row .col-xl-5 .card form .sends span, .loginOne .container .row .col-xl-5 .card form .sends .section5 span, .section5 .loginsecond .container .row .col-xl-5 .card .sends span, .loginsecond .container .row .col-xl-5 .card .sends .section5 span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.section5 .owl-theme .item img {
+  height: 400px;
+}
+
+.section5 .owl-theme .owl-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.section5 .owl-theme .owl-nav button {
+  width: 22px;
+  height: 22px;
+  border: 1px solid #000 !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  border-radius: 50% !important;
+}
+
+.section5 .owl-theme .owl-nav button span {
+  font-size: 18px;
+}
+
+.section5 .owl-theme .owl-nav button:nth-child(2) {
+  margin-left: 26px;
+}
+
+.section6 {
+  margin-bottom: 100px;
+}
+
+.section6 h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 32px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  margin-bottom: 60px;
+}
+
+.section6 h2 {
+  width: 100%;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #000000;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 25px;
+  padding-right: 100px;
+  border-bottom: 1px solid #000000;
+}
+
+.section6 p, .section6 .loginOne .container .row .col-xl-5 .card form .sends span, .loginOne .container .row .col-xl-5 .card form .sends .section6 span, .section6 .loginsecond .container .row .col-xl-5 .card .sends span, .loginsecond .container .row .col-xl-5 .card .sends .section6 span {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+.section6 img {
+  width: 100%;
+}
+
+.section7 .container-fluid {
+  padding-top: 91px;
+}
+
+.section7 h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  letter-spacing: 0.025em;
+  color: #ffffff;
+  margin-right: 76px;
+}
+
+.section7 iframe {
+  margin-top: 78px;
+  width: 100%;
+  height: 460px;
+  border: 15px solid #ffcf23;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.loginOne .container .row {
+  padding-top: 75px;
+}
+
+.loginOne .container .row .col-xl-5 .card {
+  background-color: #fafafa;
+  padding: 35px 50px 28px 50px !important;
+  border: none;
+  margin-bottom: 200px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.loginOne .container .row .col-xl-5 .card h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.loginOne .container .row .col-xl-5 .card form .inp {
+  display: block;
+  width: 300px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: transparent;
+  line-height: 19px;
+  padding-bottom: 9px;
+  border-bottom: 0.7px solid rgba(127, 127, 127, 0.5);
+}
+
+.loginOne .container .row .col-xl-5 .card form .inp:focus {
+  border-bottom: 1px solid #ffcf23;
+}
+
+.loginOne .container .row .col-xl-5 .card form .form-check {
+  margin-top: 25px;
+}
+
+.loginOne .container .row .col-xl-5 .card form .form-check .form-check-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #7f7f7f;
+}
+
+.loginOne .container .row .col-xl-5 .card form .form-check .form-check-label .cheks {
+  color: #ffcf23;
+}
+
+.loginOne .container .row .col-xl-5 .card form .sends {
+  width: 300px !important;
+  margin-top: 40px !important;
+  margin-bottom: 10px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.loginOne .container .row .col-xl-5 .card form .sends p, .loginOne .container .row .col-xl-5 .card form .sends span {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+.loginOne .container .row .col-xl-5 .card form .sends span {
+  color: #fff;
+  font-size: 33px;
+}
+
+.loginOne .container .row .col-xl-5 .card .error {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #7f7f7f;
+}
+
+.loginOne .container .row .col-xl-5 .card .new {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  padding-top: 57px;
+  padding-bottom: 6px;
+  color: #7f7f7f;
+}
+
+.loginOne .container .row .col-xl-5 .card .ruyxat {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #ffcf23;
+}
+
+.loginsecond .container .row {
+  padding-top: 75px;
+}
+
+.loginsecond .container .row .col-xl-5 .card {
+  background-color: #fafafa;
+  padding: 35px 50px 28px 50px !important;
+  border: none;
+  margin-bottom: 200px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.loginsecond .container .row .col-xl-5 .card h5 {
+  margin-top: 38px;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.loginsecond .container .row .col-xl-5 .card h5 span {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #565656;
+}
+
+.loginsecond .container .row .col-xl-5 .card .inpu {
+  display: block;
+  width: 300px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: transparent;
+  line-height: 19px;
+  padding-bottom: 9px;
+  border-bottom: 0.7px solid rgba(127, 127, 127, 0.5);
+}
+
+.loginsecond .container .row .col-xl-5 .card .inpu:focus {
+  border-bottom: 1px solid #ffcf23;
+}
+
+.loginsecond .container .row .col-xl-5 .card .kods {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  margin-top: 10px;
+  color: #000000;
+}
+
+.loginsecond .container .row .col-xl-5 .card .form-check {
+  margin-bottom: 39px;
+}
+
+.loginsecond .container .row .col-xl-5 .card .form-check .form-check-input {
+  margin-right: 69px;
+}
+
+.loginsecond .container .row .col-xl-5 .card .form-check .form-check-label {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #7f7f7f;
+}
+
+.loginsecond .container .row .col-xl-5 .card h6 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #7f7f7f;
+}
+
+.loginsecond .container .row .col-xl-5 .card .sends {
+  width: 300px !important;
+  margin-top: 40px !important;
+  margin-bottom: 10px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.loginsecond .container .row .col-xl-5 .card .sends p, .loginsecond .loginOne .container .row .col-xl-5 .card form .sends span, .loginOne .loginsecond .container .row .col-xl-5 .card form .sends span, .loginsecond .container .row .col-xl-5 .card .sends span {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 10px;
+  letter-spacing: 0.025em;
+  color: #000000;
+}
+
+.loginsecond .container .row .col-xl-5 .card .sends span {
+  color: #fff;
+  font-size: 33px;
+}
+
+.loginsecond .container .row .col-xl-5 .card .atmen {
+  background-color: #EFEFEF;
+}
+
+.loginsecond .container .row .col-xl-5 .card .atmen span {
+  color: #ffcf23;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffcf23;
+  outline: 1px solid #c8ccd1;
+}
+
+input::-webkit-outer-spin-button, .container .formToAdmin .forms form .dropdown-toggle::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+.container .formToAdmin .forms form .dropdown-toggle::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body header .container {
+  width: 1220px !important;
+  padding: 0 !important;
+}
+
+body header .container .navbar {
+  z-index: 8;
+  padding-top: 44px;
+}
+
+body header .container .navbar .container-fluid .collapse ul:nth-child(1) li a {
+  margin-left: 28px !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  color: #000 !important;
+}
+
+body header .container .navbar .container-fluid .collapse ul:nth-child(1) li a:hover {
+  border-color: #ffcf23;
+}
+
+body header .container .navbar .container-fluid .collapse ul:nth-child(2) li .leang {
+  margin-left: 60px !important;
+  font-size: 16px;
+  line-height: 20px;
+  border-bottom: 1px solid transparent;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  outline: none !important;
+}
+
+body header .container .navbar .container-fluid .collapse ul:nth-child(2) li .leang:hover {
+  border-color: #ffcf23;
+}
+
+body header .container .navbar .container-fluid .collapse ul:nth-child(2) li .blacks {
+  color: #000 !important;
+}
+
+body header .container .malumot .col-xl-5 h1 {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 76px;
+  letter-spacing: 0.01em;
+  padding-top: 140px;
+  margin-bottom: 40px;
+}
+
+body header .container .malumot .col-xl-5 h1 img:nth-child(1) {
+  margin-left: 25px;
+}
+
+body header .container .malumot .col-xl-5 h1 img:nth-child(2) {
+  margin-left: 85px;
+}
+
+body header .container .malumot .col-xl-5 button {
+  margin-top: 36px;
+}
+
+body header .container .malumot .col-xl-5 button p, body header .loginOne .container .malumot .row .col-xl-5 button .card form .sends span, .loginOne body header .container .malumot .row .col-xl-5 button .card form .sends span, body header .loginOne .container .row .malumot .col-xl-5 button .card form .sends span, .loginOne body header .container .row .malumot .col-xl-5 button .card form .sends span, body header .loginOne .container .malumot .row .col-xl-5 .card form .sends button span, .loginOne body header .container .malumot .row .col-xl-5 .card form .sends button span, body header .loginOne .container .row .malumot .col-xl-5 .card form .sends button span, .loginOne body header .container .row .malumot .col-xl-5 .card form .sends button span, body header .loginsecond .container .malumot .row .col-xl-5 button .card .sends span, .loginsecond body header .container .malumot .row .col-xl-5 button .card .sends span, body header .loginsecond .container .row .malumot .col-xl-5 button .card .sends span, .loginsecond body header .container .row .malumot .col-xl-5 button .card .sends span, body header .loginsecond .container .malumot .row .col-xl-5 .card .sends button span, .loginsecond body header .container .malumot .row .col-xl-5 .card .sends button span, body header .loginsecond .container .row .malumot .col-xl-5 .card .sends button span, .loginsecond body header .container .row .malumot .col-xl-5 .card .sends button span {
+  display: inline-block;
+  padding-right: 10px;
+  margin: 0;
+}
+
+body header .container .malumot .col-xl-5 button span {
+  font-size: 25px;
+  font-weight: bold !important;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+body footer .footer {
+  background-color: #ffcf23;
+  padding: 50px 0 38px 0;
+}
+
+body footer .footer .container .row .col-xl-7 .d-flex .footer_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body footer .footer .container .row .col-xl-7 .d-flex .footer_title img {
+  width: 124px;
+  height: 44.47px;
+  margin-bottom: 15.53px;
+  -o-object-fit: none;
+     object-fit: none;
+}
+
+body footer .footer .container .row .col-xl-7 .d-flex .footer_title a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #131637;
+}
+
+body footer .footer .container .row .col-xl-7 .d-flex .footer_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body footer .footer .container .row .col-xl-7 .d-flex .footer_link a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  color: #131637;
+  margin-bottom: 1rem;
+}
+
+body footer .footer .container .row .col-xl-7 .d-flex .footer_icon .d-flex {
+  margin-bottom: 13px;
+}
+
+body footer .footer .container .row .col-xl-7 .d-flex .footer_icon .d-flex span {
+  background: #000;
+  width: 20px;
+  height: 20px;
+}
+
+body footer .footer .container .row .col-xl-7 .d-flex .footer_icon .d-flex a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.025em;
+  color: #131637;
+  margin-left: 15px;
+}
+
+body footer .footer .container .row .col-xl-5 .footer_location img {
+  width: 91.34px;
+  height: 87.56px;
+}
+
+body footer .footer .container .row .col-xl-5 .footer_location a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.025em;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #131637;
+  width: 192px;
+  margin-left: 48.57px;
+}
+/*# sourceMappingURL=main.css.map */
